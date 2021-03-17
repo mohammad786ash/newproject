@@ -1,18 +1,21 @@
 package com.java;
 
-public class LoopControl {
+public class ForLoop {
     public static void main(String[] args){
 
         for(int i = 0; i < 10; i++){
-            System.out.println("hello");
+            System.out.println("hello"); //prints hello 10 times
         }
-        for(int i = 0; i <= 10; i++){
-            System.out.println(i);
+        for(int i = 0; i <= 11; i++){
+            System.out.println(i); //prints i variable less then or equal to 10 times
         }
-
-        int[] grades = {98, 100, 83, 90, 92};
-
-        for(int i = 0; 1 < grades.length; i++)
-            System.out.println(grades[i]);
+//
+//       for(int i=1; i<10; i++){
+//           System.out.println(i*2);
+//       }
+//
+//        for(int i=1; i<10; i++){
+//            System.out.println("2 x =" +i*2);
+//        }
     }
 }
